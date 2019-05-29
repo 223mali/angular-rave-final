@@ -23,6 +23,7 @@ export declare class AngularRaveComponent implements OnInit {
     onclose: EventEmitter<void>;
     callback: EventEmitter<Object>;
     private _raveOptions;
+    private paymentSetup;
     constructor();
     pay(): void;
     insertRaveOptions(): void;
