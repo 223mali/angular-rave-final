@@ -1,0 +1,43 @@
+{
+  "name": "angular-rave",
+  "version": "1.2.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashinzekene/angular-rave.git"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "ashinzekene@gmail.com",
+    "name": "Ashinze Ekene",
+    "url": "https://github.com/ashinzekene"
+  },
+  "bugs": {
+    "email": "ashinzekene@gmail.com",
+    "url": "https://github.com/ashinzekene/angular-rave/issues"
+  },
+  "description": "Angular wrapper for integrating rave transactions",
+  "keywords": [
+    "angular",
+    "payment",
+    "ravepayment",
+    "flutterwave",
+    "gateway"
+  ],
+  "main": "bundles/angular-rave.umd.js",
+  "module": "fesm5/angular-rave.js",
+  "es2015": "fesm2015/angular-rave.js",
+  "esm5": "esm5/angular-rave.js",
+  "esm2015": "esm2015/angular-rave.js",
+  "fesm5": "fesm5/angular-rave.js",
+  "fesm2015": "fesm2015/angular-rave.js",
+  "typings": "angular-rave.d.ts",
+  "metadata": "angular-rave.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
