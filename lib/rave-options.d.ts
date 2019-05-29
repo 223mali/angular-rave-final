@@ -11,11 +11,11 @@ export declare class RaveOptions {
      * Firstname of the customer
      */
     customer_firstname?: string;
+    payment_plan?: number;
     /**
      * firstname of the customer
      */
     customer_lastname?: string;
-    payment_plan?: number;
     /**
      * Text to be displayed as a short modal description
      */
@@ -82,6 +82,7 @@ export declare class _RaveOptions {
      * Email of the customer
      */
     customer_email?: string;
+    payment_plan?: number;
     /**
      * Firstname of the customer
      */
@@ -106,7 +107,6 @@ export declare class _RaveOptions {
      * Amount to charge
      */
     amount: number;
-    payment_plan: number;
     /**
      * phone number of the customer
      */

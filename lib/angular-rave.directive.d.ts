@@ -23,7 +23,6 @@ export declare class AngularRaveDirective {
     onclose: EventEmitter<void>;
     callback: EventEmitter<any>;
     private _raveOptions;
-    private paymentSetup;
     constructor();
     buttonClick(): void;
     pay(): void;
